@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>login form</title>
+  </head>
+  <body>
+    <div class="container" data-tilt>
+      <!-- bahar ka box start-->
+
+      <div class="icon-box">
+        <a href="https://facebook.com" target="_blank"
+          ><i class="fa-brands fa-facebook"> </i
+        ></a>
+        <a href="https://google.com" target="_blank"
+          ><i class="fa-brands fa-google"></i
+        ></a>
+        <a href="https://x.com" target="_blank"
+          ><i class="fa-brands fa-square-x-twitter"></i
+        ></a>
+      </div>
+      <!-- ---------------------------------------------- -->
+      <div class="logintext">
+        <h2>Login Now</h2>
+        <small> <i> happy to see you again</i></small>
+      </div>
+      <!-- ------------------------------------------------- -->
+      <form action="#" method="get">
+        <div class="inputfield">
+          <div class="inputuser">
+            <input type="text" name="username" id="username" required />
+            <label for="username">Username</label>
+          </div>
+          <div class="inputpassword">
+            <input type="password" name="password" id="password" required />
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <div class="chk">
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+            class="checkbox"
+          />
+          <label for="checkbox">Remember Me</label>
+        </div>
+      </form>
+      <!-- ---------------------------------------- -->
+      <div class="login">
+        <input
+          type="button"
+          id="loginbutton"
+          name="loginbutton"
+          value="login"
+          class="same"
+        />
+      </div>
+      <!-- ------------------------------------------------- -->
+
+      <div class="newuser">
+        <big>New User?</big>
+        <div><a href="registration.html">
+          <input type="button" value="Register" class="same" id="reg" />
+        </div></a>
+      </div>
+
+      <script
+        type="text/javascript"
+        src="javascript/vanilla-tilt.babel.min.js"
+      ></script>
+      <!-- bahar ka box band -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./registration.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>registration</title>
+  </head>
+  <body>
+    <div class="outerbox">
+      <!--outer box start  -->
+      <div class="insidebox" data-tilt>
+        <!-- box start -->
+        <div class="icons">
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fa-brands fa-facebook"> </i
+          ></a>
+          <a href="https://google.com" target="_blank"
+            ><i class="fa-brands fa-google"></i
+          ></a>
+          <a href="https://x.com" target="_blank"
+            ><i class="fa-brands fa-square-x-twitter"></i
+          ></a>
+        </div>
+        <div class="text">
+          <h2>Sign Up</h2>
+          <h5>Welcome to our platform</h5>
+        </div>
+        <form action="" method="get">
+          <div class="details">
+            <div class="name">
+              <div class="one">
+                <input
+                  type="text"
+                  name="first name"
+                  id="fn"
+                  class="nm"
+                  required
+                />
+                <label for="fn">First Name</label>
+              </div>
+              <div class="two">
+                <input
+                  type="text"
+                  name="Last Name"
+                  id="ln"
+                  class="nm"
+                  required
+                />
+                <label for="ln">Last Name</label>
+              </div>
+            </div>
+            <br />
+            <div class="email">
+              <input type="text" name="email" id="em" required />
+              <label for="em">Email</label>
+            </div>
+            <br />
+            <div class="password">
+              <div class="pass">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="nm"
+                />
+                <label for="password">Password</label>
+              </div>
+              <div class="confirm">
+                <input
+                  type="password"
+                  name="confirm password"
+                  id="cp"
+                  class="nm"
+                />
+                <label for="cp">Confirm Password</label>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <br />
+        <div class="signin">
+          <input
+            type="button"
+            name="signup"
+            class="pk"
+            id="button"
+            value="Sign In"
+          />
+        </div>
+
+        <div class="alu">
+          <h3>Already a User?</h3>
+          <a href="login.html">
+            <input
+              type="button"
+              name="login"
+              class="pk"
+              id="button"
+              value="Login"
+          /></a>
+        </div>
+      </div>
+      <!-- box end -->
+      <script
+        type="text/javascript"
+        src="javascript/vanilla-tilt.babel.min.js"
+      ></script>
+    </div>
+    <!-- outerbox end -->
+  </body>
+</html>
